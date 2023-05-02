@@ -1,0 +1,178 @@
+{% extends 'layout/base.html' %}
+{% load django_bootstrap5 %}
+{% block content %}    
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h1>Hello, I'm Manak Srivastava</h1>
+        <p>I'm a web developer with experience in HTML, CSS, JavaScript, and React. I'm passionate about creating beautiful and functional websites that make a difference.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>My journey as a web developer started when I was in high school. I took an introductory course in HTML and was immediately hooked. I've been honing my skills ever since, and I'm now confident in my ability to create high-quality websites that meet the needs of clients and users alike.</p>
+      <p>In addition to my technical skills, I'm also a strong communicator and team player. I understand the importance of collaboration and am always willing to go the extra mile to ensure that my work meets or exceeds expectations.</p>
+      <h2>Contact Me</h2>
+      <ul class="contact-list">
+        <li><i class="fas fa-envelope"></i><a href="mailto:manaksrivastava2@gmail.com">manaksrivastava2@gmail.com</a></li>
+        <li><i class="fas fa-phone"></i><a href="tel:+918604911242">8604911242</a></li>
+        <li><i class="fab fa-github"></i><a href="https://github.com/manak2003">github.com/manak2003</a></li>
+        <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/manak-srivastava-40b015262/">linkedin.com/in/manaksrivastava/</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2023 Manak Srivastava. All rights reserved.</p>
+</footer>
+  
+{% endblock content %}
+    
+{% block css %}
+    <style>
+      /* Global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header styles */
+/* Header styles */
+
+header {
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+/* Hero section styles */
+
+.hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1200x400/?webdeveloper/1200x400');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 55.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Content section styles */
+
+.content {
+  padding: 5rem 0;
+  color: #fff;
+}
+
+.content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.contact-list i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+/* Footer styles */
+
+footer {
+
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+{% endblock css %}
+    
+
+{% block js %}
+    
+{% endblock js %}
+    
